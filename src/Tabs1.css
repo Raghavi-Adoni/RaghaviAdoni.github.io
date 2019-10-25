@@ -17,8 +17,9 @@
     bottom: -1px;
     position: relative;
     list-style: none;
-    padding: 6px 12px;
+    padding: 8px 16px;
     cursor: pointer;
+    
   }
   
   .react-tabs__tab--selected {
@@ -51,16 +52,16 @@
   
   .react-tabs__tab-panel {
     display: none;
+    min-height: 42vh;
   }
   
   .react-tabs__tab-panel--selected {
     display: block;
-    min-height: 37vh;
     scroll-behavior: auto;
   }
 
   .tabs-content {
-    min-height: 100%;
+   
     background: #64ffda;
     text-decoration: #64ffda;
     
@@ -69,14 +70,13 @@
     border: solid 5px rgb(40, 7, 82);
     color: 'black';
     width: 20%; 
-    height: 30vh;
-    scroll-behavior: auto;
+    max-height: 35vh;
+    overflow-y: auto;
     background-color: 'white'; 
     border-radius: 8;
     position: relative;
     display: -webkit-inline-flex;
     box-shadow: 10px 10px #d6dbda;
     margin-inline-start: 30px;
-    overflow-y: 'scroll',
+    margin-top: 4vh;
   }
-  
