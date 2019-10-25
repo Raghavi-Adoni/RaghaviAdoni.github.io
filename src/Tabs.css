@@ -53,20 +53,16 @@
   .react-tabs__tab-panel {
     display: none;
     min-height: 42vh;
+    
   }
   
   .react-tabs__tab-panel--selected {
     display: block;
     scroll-behavior: auto;
-  }
-
-  .tabs-content {
-   
-    background: #64ffda;
-    text-decoration: #64ffda;
     
   }
-  .about-border {
+
+  .card-border {
     border: solid 5px rgb(40, 7, 82);
     color: 'black';
     width: 20%; 
@@ -79,4 +75,6 @@
     box-shadow: 10px 10px #d6dbda;
     margin-inline-start: 30px;
     margin-top: 4vh;
+    
   }
+

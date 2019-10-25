@@ -1,4 +1,4 @@
-.App {
+.app {
   text-align: center;
   height: 100%;
   min-height: 100%;
@@ -6,7 +6,7 @@
 
 
 
-.App-header {
+.app-header {
   background-color: #64ffda;
   max-height: 45vh;
   display: flex;
@@ -17,11 +17,11 @@
   color: rgb(24, 22, 22);
 }
 
-.App-link {
+.app-link {
   color: #12061b;
 }
 
-.Icons-List {
+.icons-list {
   position: fixed;
   display: inline-block;
   width: 100%;
@@ -30,7 +30,7 @@ height: 7vh;
 
 }
 
-.Social-media-list {
+.social-media-list {
   display: inline-block;
     border: 1px solid transparent;
     border-bottom: none;
@@ -54,7 +54,7 @@ height: 7vh;
   margin-top: 2px;
   color: rgb(40, 7, 82);
 }
-.App-logo {
+.app-logo {
   background-size: cover;
   display: block;
   border-radius: 1000px;

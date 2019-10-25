@@ -1,26 +1,24 @@
 import React from 'react';
 import logo from './round-profile.jpeg';
 import './App.css';
-import About from './components/about';
-import Tabs1 from './components/tabs1';
-import Footer from './components/footer';
+import About from './components/About';
+import HomeTabs from './components/HomeTabs';
+import Footer from './components/Footer';
 
 
 function App() {
   return (
     <div>
-    <div className="App">
-      <header className="App-header">
+    <div className="app">
+      <header className="app-header">
         <img src={logo}  
-           className="App-logo" alt="logo" 
+           className="app-logo" alt="logo" 
           />
-    <div className="Header">
         <About />
-    </div>
       </header>
-      <Tabs1 />
+      <HomeTabs />
       </div>
-    <div className='Icons-List'><Footer/>
+    <div className='icons-List'><Footer/>
     </div></div>
   );
 }

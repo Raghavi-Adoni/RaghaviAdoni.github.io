@@ -5,26 +5,26 @@ import { faLinkedin, faTwitter, faGithub } from "@fortawesome/free-brands-svg-ic
 
 function Footer() 
 { 
-        return <div className='Icons-List'>
+        return <div className='icons-list'>
         <a
-          className="linkedin social App-link Social-media-list"
-          href="https://reactjs.org"
+          className="faLinkedin app-link social-media-list"
+          href="https://www.linkedin.com/in/raghavi-adoni-1a9860157/"
           target="_blank"
           rel="noopener noreferrer"
         >
          <FontAwesomeIcon icon={faLinkedin} size="2x" />
         </a>
         <a
-          className="github App-link Social-media-list"
-          href="https://www.google.com"
+          className="faGithub app-link social-media-list"
+          href="https://github.com/Raghavi-Adoni"
           target="_blank"
           rel="noopener noreferrer"
         >
            <FontAwesomeIcon icon={faGithub} size="2x" />
         </a>
         <a
-          className="fatwitter App-link Social-media-list"
-          href="https://www.google.com"
+          className="fatwitter app-link social-media-list"
+          href="https://twitter.com/raghavi_adoni"
           target="_blank"
           rel="noopener noreferrer"
         >
