@@ -6,7 +6,8 @@ function ExperienceCards()
 { 
         return <div><Card className = 'card-border'>
         <Card.Body>
-          <Card.Title><h2>Mess Manager</h2></Card.Title>
+          <Card.Title><h2>Mess 
+            Manager</h2></Card.Title>
           <Card.Text>
             <h6>Android App built to help easen the ordering process in the mess and to make it more efficient. Built with proper 
               authetication to ensure only the residents have the access to it.
@@ -16,9 +17,9 @@ function ExperienceCards()
       </Card>
       <Card className = 'card-border'>
         <Card.Body >
-          <Card.Title><h2>Internship at Goldman Sachs</h2></Card.Title>
+          <Card.Title><h2>Customer Segmentation</h2></Card.Title>
           <Card.Text>
-            <h6>Did my summer internship (2019) at Goldman Sachs which provided me with a great learning oppurtunity. </h6>
+            <h6>The project uses unsupervised learning algorithms to cluster customers into groups based on purchasing data(Under Udacity). </h6>
           </Card.Text>
         </Card.Body>
       </Card>
