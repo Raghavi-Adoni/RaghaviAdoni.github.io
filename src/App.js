@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './round-profile.jpeg';
+import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header';
 import HomeTabs from './components/HomeTabs';
